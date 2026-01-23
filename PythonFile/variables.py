@@ -20,4 +20,35 @@ total_score = "30"
 class = 10       # 'class' is a reserved keyword
  user-name = "Doe"  # Contains a hyphen '''
 
+x = 5
+y = 3.14
+z = "hi"
+
+X =  10 
+x = "Now  a String "
+
+a = b = c  = 100
+print(a,b,c)
+
+x,y,z, = 1,2.5, "Python"
+print(x,y,z)
+
+
+# Type  casting  a Variable 
+# int(): Converts compatible values to an integer.
+s =  20
+n = int(s)
+
+# float(): Transforms values into floating-point numbers.
+a = 12
+b = float(a)
+
+# str(): Converts any data type into a string.
+age = 5 
+x = str(age)
+
+print(n)
+print(b)
+print(x)
+
 
