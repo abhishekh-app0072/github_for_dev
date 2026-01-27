@@ -45,3 +45,15 @@ x = 10
 del x
 print(x)
 
+# python data type # 
+
+x =  10  # int 
+y = 12.90  # float 
+z = "hello" # string 
+a = [1,2,3,"abc", "abhishek","age", 12.0]  # list 
+b = (1,2,3,4,5, "abc ", "for", "abc")  # tuple
+c = {"key" : "value" }  # dicst or set 
+
+
+# Numeric Data Types
+
