@@ -147,3 +147,19 @@ print(s2)
 s3 =  set(["abc" ,"123", "apple"])
 print(s3)
 
+
+#
+set1 = set(["Geeks", "For", "Geeks"]) #Duplicates are removed automatically
+print(set1) 
+
+# loop through set
+for i in set1:
+   print(i, end=" ") #prints elements one by one
+  
+# check if item exist in set   
+print("Geeks" in set1)
+
+
+
+# 5. Dictionary Data Type 
+
