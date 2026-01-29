@@ -191,4 +191,4 @@ print(d2[2])
 print(d1.get(3))
 
 
-# data type ,Int,float, Bool,String,complex,list,tuple,set,Dict
+# data type in Python ,Int,float, Bool,String,complex,list,tuple,set,Dict
