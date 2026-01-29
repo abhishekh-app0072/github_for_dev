@@ -163,3 +163,32 @@ print("Geeks" in set1)
 
 # 5. Dictionary Data Type 
 
+d = {}
+print(d)
+
+d1 = {1:"apple",
+      2:"ball",
+      3:"cat",
+      4:"egg",
+      5:"fish"}
+print(d1)
+
+# creating dictionary using dict() constructor
+d2 = dict({1:"apple",
+      2:"ball",
+      3:"cat",
+      4:"egg",
+      5:"fish"})
+print(d2)
+
+# Accessing an element using key
+
+print(d1[1])
+print(d2[2])
+
+# Accessing a element using get
+
+print(d1.get(3))
+
+
+# data type ,Int,float, Bool,String,complex,list,tuple,set,Dict
