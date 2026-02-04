@@ -46,6 +46,5 @@ res = "Pass" if marks >= 40 else "Fail"
 print(f"Result: {res}")'''
 
 
-# elif Statement
 
 
