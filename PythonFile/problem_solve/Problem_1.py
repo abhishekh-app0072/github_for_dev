@@ -202,3 +202,5 @@ match mode:
         print("No calls or notifications will come through.")
     case _:
         print("Invalid mode selected.")
+
+        

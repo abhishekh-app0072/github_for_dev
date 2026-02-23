@@ -1,0 +1,77 @@
+SOLUTION (GitHub Codespaces me ho — Most Likely)
+
+Codespaces me MySQL installed nahi hota by default.
+
+Option A: Install MySQL inside Codespace
+
+sudo apt update
+sudo apt install mysql-server
+sudo service mysql start
+
+Then login:
+sudo mysql
+
+Set password:
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+FLUSH PRIVILEGES;
+
+
+ALSO FIX YOUR CODE
+
+import mysql.connector
+
+try:
+    dataBase = mysql.connector.connect(
+        host="127.0.0.1",
+        user="root",
+        password="password",
+        port=3306
+    )
+
+    if dataBase.is_connected():
+        print("Connected to MySQL successfully")
+
+except mysql.connector.Error as err:
+    print("Error:", err)
+
+finally:
+    if 'dataBase' in locals() and dataBase.is_connected():
+        dataBase.close()
+        print("Connection closed")
+-----------------------------------------------------------------------------
+Check MySQL installed hai ya nahi
+
+Terminal me run karo: mysql --version
+
+Try this:
+
+import mysql.connector
+
+dataBase = mysql.connector.connect(
+  host="127.0.0.1",
+  user="root",
+  password="your_real_mysql_password",
+  port=3306
+)
+
+print("Connected Successfully")
+
+dataBase.close()
+-----------------------------------------------------------------------------
+sudo apt update
+sudo apt install mysql-server
+sudo service mysql start
+-----------------------------------------------------------------------------
+sudo mysql
+-----------------------------------------------------------------------------
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+FLUSH PRIVILEGES;
+-----------------------------------------------------------------------------
+exit
+-----------------------------------------------------------------------------
+sudo mysql -u root -p  
+after enter this  command in terminal ask for password: enter your correct passwrd 
+-----------------------------------------------------------------------------
+check your database  (cmd:- show databases;)
+-----------------------------------------------------------------------------
+
