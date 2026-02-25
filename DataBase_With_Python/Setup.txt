@@ -69,9 +69,14 @@ FLUSH PRIVILEGES;
 -----------------------------------------------------------------------------
 exit
 -----------------------------------------------------------------------------
-sudo mysql -u root -p  
+Login  in myswl server : sudo mysql -u root -p  
 after enter this  command in terminal ask for password: enter your correct passwrd 
 -----------------------------------------------------------------------------
 check your database  (cmd:- show databases;)
 -----------------------------------------------------------------------------
-
+command to change  databases : use (databasename)
+------------------------------------------------------------------------------
+To check  Tables  : show tables;
+-----------------------------------------------------------------------------
+To check table data : Select*from STUDENT;
+------------------------------------------------------------------------------

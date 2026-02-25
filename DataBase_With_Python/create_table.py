@@ -13,7 +13,7 @@ dataBase = mysql.connector.connect(
 cursorObject = dataBase.cursor()
  
 # creating table 
-studentRecord = """CREATE TABLE STUDENT (
+studentRecord = """CREATE TABLE Student (
                    NAME  VARCHAR(20) NOT NULL,
                    BRANCH VARCHAR(50),
                    ROLL INT NOT NULL,
